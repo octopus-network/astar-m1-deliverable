@@ -42,6 +42,7 @@ cargo build --release
 ```bash
 cd e2e-astar
 python run.py -c ../hermes.toml --cmd ../target/release/hermes
+ls README.md  # More details of the testing 
 ```
 Wait until you see events of `WriteAcknowledgement` & `ReceivePacket` on the explorer of parachain like below. It takes over 10 mins.
 
