@@ -43,3 +43,6 @@ cargo build --release
 cd e2e-astar
 python run.py -c ../hermes.toml --cmd ../target/release/hermes
 ```
+Wait until you see events of `WriteAcknowledgement` & `ReceivePacket` on the explorer of parachain like below. It takes over 10 mins.
+
+![e2e](resouces/e2e.png)
