@@ -47,3 +47,6 @@ ls README.md  # More details of the testing
 Wait until you see events of `WriteAcknowledgement` & `ReceivePacket` on the explorer of parachain like below. It takes over 10 mins.
 
 ![e2e](resouces/e2e.png)
+
+# Legacies
+* If the relayer runs for over 30 mins, the packet transfer will fail unless restart the relayer manually.
