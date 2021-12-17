@@ -35,13 +35,13 @@ Follow the `astar-readme.md` to run the Cosmos chain locally.
 ```bash
 git clone -b dv-update-subxt https://github.com/octopus-network/ibc-rs.git
 cd ibc-rs
-cargo build --release
+cargo build
 ```
 
 ### Run e2e Test
 ```bash
 cd e2e-astar
-python run.py -c ../hermes.toml --cmd ../target/release/hermes
+python run.py -c ../hermes.toml --cmd ../target/debug/hermes
 ls README.md  # More details of the testing 
 ```
 Wait until you see events of `WriteAcknowledgement` & `ReceivePacket` on the explorer of parachain like below. It takes over 10 mins.
