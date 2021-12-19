@@ -12,7 +12,7 @@
 # Operation Guide
 ## Launch IBC Enabled Shiden Network Locally
 ```bash
-git clone https://github.com/octopus-network/Astar.git 
+git clone -b dv-ibc-dev https://github.com/octopus-network/Astar.git 
 cd Astar
 ls test/README.md  # <== Follow this "README.md"
 ```
@@ -47,6 +47,3 @@ ls README.md  # More details of the testing
 Wait until you see events of `WriteAcknowledgement` & `ReceivePacket` on the explorer of parachain like below. It takes over 10 mins.
 
 ![e2e](resouces/e2e.png)
-
-# Legacies
-* If the relayer runs for over 30 mins, the packet transfer will fail unless restart the relayer manually.
