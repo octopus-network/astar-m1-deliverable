@@ -2,9 +2,9 @@
 
 | Number | Deliverable       | Commnets                                                |
 | ------ | ----------------- | ------------------------------------------------------------ |
-| 1.     | Shiden network  | https://github.com/octopus-network/Astar.git       |
+| 1.     | Shiden network  | https://github.com/octopus-network/Astar/tree/dv-ibc-dev       |
 | 2.     | Mock cosmos chain | https://github.com/octopus-network/mock-grandpa.git |
-| 3.     | Relayer           | git clone -b dv-update-subxt https://github.com/octopus-network/ibc-rs.git |
+| 3.     | Relayer           | https://github.com/octopus-network/ibc-rs/tree/dv-update-subxt |
 | 4.     | Testing Script    | Plese refer to the end of this file.            |
 | 5.     | Design Spec       |  [design](./design.md)                                                            |
 | 6.     | Operation Guide       |  Right below                                                            |
