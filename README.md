@@ -41,9 +41,11 @@ cargo build
 ### Run e2e Test
 ```bash
 cd e2e-astar
-python run.py -c ../hermes.toml --cmd ../target/debug/hermes
+python run.py -c ../hermes.toml --cmd ../target/debug/hermes # Run automatic e2e testing
 ls README.md  # More details of the testing 
 ```
 Wait until you see events of `WriteAcknowledgement` & `ReceivePacket` on the explorer of parachain like below. It takes over 10 mins.
 
 ![e2e](resouces/e2e.png)
+
+[Vedio demo of manual e2e testing](https://www.youtube.com/watch?v=PjMH9d_N3AU)
