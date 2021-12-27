@@ -5,7 +5,7 @@
 | 1.     | Shiden network  | https://github.com/octopus-network/Astar/tree/dv-ibc-dev       |
 | 2.     | Mock cosmos chain | https://github.com/octopus-network/mock-grandpa.git |
 | 3.     | Relayer           | https://github.com/octopus-network/ibc-rs/tree/dv-update-subxt |
-| 4.     | Testing Script    | Plese refer to the end of this file.            |
+| 4.     | Testing Script    | [run e2e test](###run-e2e-test)            |
 | 5.     | Design Spec       |  [design](./design.md)                                                            |
 | 6.     | Operation Guide       |  Right below                                                            |
 
@@ -18,7 +18,7 @@ ls test/README.md  # <== Follow this "README.md"
 ```
 Follow the `test/README.md` to run the IBC enabled Shiden network locally.
 
-## Launch A Cosmos Chain with Mock Grandpa Module Locally
+## Launch a Cosmos Chain with Mock Grandpa Module Locally
 ```bash
 git clone https://github.com/octopus-network/mock-grandpa.git 
 cd mock-grandpa
