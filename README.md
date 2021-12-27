@@ -5,7 +5,7 @@
 | 1.     | Shiden network  | https://github.com/octopus-network/Astar/tree/dv-ibc-dev       |
 | 2.     | Mock cosmos chain | https://github.com/octopus-network/mock-grandpa.git |
 | 3.     | Relayer           | https://github.com/octopus-network/ibc-rs/tree/dv-update-subxt |
-| 4.     | Testing Script    | [run e2e test](###run-e2e-test)            |
+| 4.     | Testing Script    | [run e2e test](#run-e2e-test)            |
 | 5.     | Design Spec       |  [design](./design.md)                                                            |
 | 6.     | Operation Guide       |  Right below                                                            |
 
