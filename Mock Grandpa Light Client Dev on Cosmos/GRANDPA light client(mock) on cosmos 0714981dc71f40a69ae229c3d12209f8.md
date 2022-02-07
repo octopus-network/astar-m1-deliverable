@@ -314,8 +314,6 @@ Ref：[https://docs.starport.network/cli/](https://docs.starport.network/cli/)
 
 # Refs：
 
-[GVM - Go 的多版本管理工具，使用介绍](https://dryyun.com/2018/11/28/how-to-use-gvm/)
-
 [Cosmos](https://tutorials.cosmos.network)
 
 [ibc-go](https://github.com/cosmos/ibc-go)
