@@ -48,4 +48,4 @@ Wait until you see events of `WriteAcknowledgement` & `ReceivePacket` on the exp
 
 ![e2e](resouces/e2e.png)
 
-[Vedio demo of manual e2e testing](https://www.youtube.com/watch?v=PjMH9d_N3AU)
+[Vedio demo of manual e2e testing](https://www.youtube.com/watch?v=q7LH2JOie8I&list=PLBqQVBYSx66Nxq6J2CR1qvPi4Y50I75g9)

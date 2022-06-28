@@ -202,7 +202,7 @@ Based on the existing clients, connections, and channels created above, the brid
 6. The IBC pallet in the PC handles the `Acknowledgement` transaction request, then emits an event `AcknowledgePacket`.
 
 ##### Key Modifications in Relayer
-* Implement the channel query of Substrate chains
+* Implement the packet query of Substrate chains
 ```rust
     fn query_packet_commitments(
         &self,
